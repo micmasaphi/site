@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+html {
+    #background-image: url('images/M2.gif');
+    #background-size: 100px 100px;
+    #background-position: center;
+    #background-repeat: no-repeat;
+}
+#introText {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    font-family: helvetica;
+    font-weight: 800;
+    font-size: 60;
+    color: white;
+}
+#introVideo {
+    width: 100%;
+}
+body {
+    margin: 0;
+}
+</style>
+</head>
+
+<body>
+<div id="introText">hello world</div>
+<div id="introVideo">
+    <video style="width:100%" class="introVideo" autoplay loop>
+        <source src="videos/intro.mp4" type="video/mp4">
+        <!--<source src="" type="video/ogg">-->
+    </video>
+</div>
+
+</body>
+</html>
