@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>michael maffei</title>
 <style>
 html {
     #background-image: url('images/M2.gif');
@@ -13,12 +14,40 @@ html {
     position: fixed;
     z-index: 1;
     font-family: helvetica;
-    font-weight: 800;
-    font-size: 60;
+    margin-top: 20px;
     color: white;
+}
+#menuText {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0%;
+    font-size: 40;
+    font-weight: 600;
+}
+#menuItems {
+    list-style: none;
+    color: white;
+    font-family: helvetica;
 }
 #introVideo {
     width: 100%;
+}
+.maintext {
+    font-weight: 800;
+    font-size: 60;
+    margin: 0;
+}
+.subtext {
+    font-weight: 600;
+    font-size: 20;
+    margin: 0;
+}
+li:hover {
+    #LOOKS WEIRD ON SAFARI...
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
 }
 body {
     margin: 0;
@@ -27,7 +56,17 @@ body {
 </head>
 
 <body>
-<div id="introText">hello world</div>
+<div id="introText" class="text">
+    <p class="maintext">michael maffei</p>
+    <p class="subtext">M.B.A, Engineer, Creator</p>
+</div>
+<div id="menuText">
+    <ul id="menuItems">
+        <li>R&Eacute;SUM&Eacute;</li>
+        <li>PROJECTS</li>
+        <li>mr.michaelmaffei@gmail.com</li>
+    </ul>
+</div>
 <div id="introVideo">
     <video style="width:100%" class="introVideo" autoplay loop>
         <source src="videos/intro.mp4" type="video/mp4">
