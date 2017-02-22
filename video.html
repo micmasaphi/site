@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Screen Background Video</title>
+  <style>
+      /*!
+      Styles for full screen background video demo
+      */
+      /* =============================================================================
+      RESETS
+      ============================================================================= */
+      html,
+      body,
+      div,
+      h1,
+      p,
+      a,
+      video {
+      margin: 0;
+      padding: 0;
+      }
+      
+      /* =============================================================================
+      HTML, BODY
+      ============================================================================= */
+      html,
+      body {
+      height: 100%;
+      }
+      
+      body {
+      font-size: 16px;
+      font-family: "Oxygen", sans-serif;
+      line-height: 1.5;
+      }
+  
+      
+      /* =============================================================================
+      VIDEO
+      ============================================================================= */
+      .video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      }
+  </style>
+</head>
+<body>
+  
+<div class="content">
+  <h1 class="content__heading"></h1>
+  <p class="content__teaser"></p>
+  <a href="#" class="content__cta"></a>
+</div><!-- /content -->
+
+<video id="my-video" class="video" autoplay muted loop>
+  <source src="videos/intro.mp4" type="video/mp4">
+</video><!-- /video -->
+
+
+</body>
+</html>

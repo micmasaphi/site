@@ -1,6 +1,11 @@
-	1.	MOBILE DETECT DON'T LOAD VIDEO
-	2.	DON'T SHOW BODY UNTIL VIDEO LOADED (DESKTOP)
-	3.	Favicon, possibly face blinking gif, too
-	4.	Video background loading tests
-	5.	don't let text overlap
-	6.	text borders (look weird on safari)
+1. MOBILE DETECT DON'T LOAD VIDEO
+
+2. DON'T SHOW BODY UNTIL VIDEO LOADED (DESKTOP)
+
+3. Favicon, possibly face blinking gif, too
+
+4. Video background loading tests
+
+5. don't let text overlap
+
+6. redo videos with proper resolution (720?) https://envato.com/blog/video-background-html5-video/	
