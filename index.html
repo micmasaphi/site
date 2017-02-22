@@ -3,10 +3,10 @@
 <title>michael maffei</title>
 <style>
 html {
-    #background-image: url('images/M2.gif');
-    #background-size: 100px 100px;
-    #background-position: center;
-    #background-repeat: no-repeat;
+    background-image: url('images/M2.gif');
+    background-size: 100px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #introText {
     width: 100%;
@@ -22,7 +22,7 @@ html {
     position: fixed;
     z-index: 1;
     bottom: 0%;
-    font-size: 40;
+    font-size: 7vmin;
     font-weight: 600;
 }
 #menuItems {
@@ -32,24 +32,31 @@ html {
 }
 #introVideo {
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    display: block;
 }
 .maintext {
+    /*-webkit-text-stroke: 1px black;*/
     font-weight: 800;
-    font-size: 60;
+    font-size: 10vmin;
     margin: 0;
 }
 .subtext {
+    /*-webkit-text-stroke: 1px black;*/
     font-weight: 600;
-    font-size: 20;
+    font-size: 3vmin;
     margin: 0;
 }
 li:hover {
-    #LOOKS WEIRD ON SAFARI...
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke: 1px black;
     cursor: pointer;
 }
 body {
+    background-color: black;
     margin: 0;
 }
 </style>
@@ -58,19 +65,19 @@ body {
 <body>
 <div id="introText" class="text">
     <p class="maintext">michael maffei</p>
-    <p class="subtext">M.B.A, Engineer, Creator</p>
+    <p class="subtext">M.B.A. Engineer. Creator.</p>
 </div>
 <div id="menuText">
     <ul id="menuItems">
-        <li>R&Eacute;SUM&Eacute;</li>
+        <li>UNDER CONSTRUCTION</li>
+        <!--<li>R&Eacute;SUM&Eacute;</li>
         <li>PROJECTS</li>
-        <li>mr.michaelmaffei@gmail.com</li>
+        <li>CONTACT ME</li>-->
     </ul>
 </div>
 <div id="introVideo">
     <video style="width:100%" class="introVideo" autoplay loop>
-        <source src="videos/intro.mp4" type="video/mp4">
-        <!--<source src="" type="video/ogg">-->
+        <!--<source src="videos/intro.mp4" type="video/mp4">-->
     </video>
 </div>
 
